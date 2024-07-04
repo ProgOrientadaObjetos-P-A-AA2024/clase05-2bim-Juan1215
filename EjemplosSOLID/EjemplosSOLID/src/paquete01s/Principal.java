@@ -13,7 +13,7 @@ import java.util.ArrayList;
 public class Principal {
     public static void main(String[] args) {
         Persona persona1 = new Persona("René", 39);
-        Persona persona2 = new Persona("Santiango", 20);
+        Persona persona2 = new Persona("Santiago", 20);
         
         System.out.printf("%s\n", persona1.obtenerEdad());
         System.out.printf("%s\n", persona2.obtenerEdad());
