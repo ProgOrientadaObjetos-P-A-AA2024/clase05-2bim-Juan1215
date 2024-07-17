@@ -13,7 +13,7 @@ public class Principal {
         GeneradorPeliculas gp3 = new GeneradorPeliculas();
         gp3.establecerLlave(dgo);
         gp3.establecerUrl("http://api.movie?api=");
-        System.out.println(gp3.obtenerUrl());
+        System.out.println(gp3.obtenerUrl()); 
 
         APIDisneyPlus disney = new APIDisneyPlus();
         disney.establecerApiKey("1478963");
